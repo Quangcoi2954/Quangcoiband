@@ -13,19 +13,9 @@
 /* Mobile */
 @media (max-width: 46.25em)
 {
-    #nav
+    #header
     {
-        display: block;
-    }
-
-    #nav > li
-    {
-        display: block;
-    }
-
-    #nav > li:first-child
-    {
-        display: inline-block;
+        overflow: hidden;
     }
 
     #header .mobile-menu-btn
@@ -36,5 +26,37 @@
     #header .search-btn
     {
         display: none;
+    }
+
+    #nav
+    {
+        display: block;
+    }
+
+    #nav > li
+    {
+        display: block;
+    }
+
+    #nav li a 
+    {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child
+    {
+        display: inline-block;
+    }
+
+    #nav .subnav
+    {
+        position: initial;
+        background: #000;
+    }
+
+    #nav .subnav a 
+    {
+        color: #fff;
+        padding: 5px 41px;
     }
 }
