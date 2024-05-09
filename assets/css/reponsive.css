@@ -13,9 +13,15 @@
 /* Mobile */
 @media (max-width: 46.25em)
 {
-    .s-col-full
+    .s-col-full,
+    .s-full-width
     {
-        width: 100%;
+        width: 100% !important;
+    }
+
+    .s-mt-8
+    {
+        margin-top: 8px !important;
     }
 
     #header
@@ -68,5 +74,10 @@
     #content .member-img
     {
         width: 60%;
+    }
+
+    .contact-form
+    {
+        margin-top: 16px;
     }
 }
