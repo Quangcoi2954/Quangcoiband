@@ -361,6 +361,17 @@ html {
     font-weight: 900;
 }
 
+.contact-infor a
+{
+    color: #00e;
+    opacity: 0.8;
+}
+
+.contact-infor a:hover
+{
+    opacity: 1;
+}
+
 .contact-form {
     font-size: 15px;
 }

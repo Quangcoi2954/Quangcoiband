@@ -10,6 +10,46 @@
 
 }
 
+/* Tablet & Mobile */
+@media (max-width: 63.9375em)
+{
+    .btn
+    {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a
+    {
+        padding: 5px 12px;
+    }
+
+    .contact-form .form-control
+    {
+        padding: 15px;
+    }
+
+    .contact-infor
+    {
+        line-height: 2;
+    }
+
+    #footer .socials-list
+    {
+        font-size: 42px;
+    }
+
+    #footer .socials-list a
+    {
+        margin: 0 5px;
+    }
+
+    #footer .copyright a
+    {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
 /* Mobile */
 @media (max-width: 46.25em)
 {
@@ -78,6 +118,6 @@
 
     .contact-form
     {
-        margin-top: 16px;
+        margin-top: 32px;
     }
 }
