@@ -16,6 +16,7 @@
     .btn
     {
         padding: 15px 16px;
+        font-size: 16px;
     }
 
     #nav .subnav a
@@ -26,11 +27,17 @@
     .contact-form .form-control
     {
         padding: 15px;
+        font-size: 16px;
     }
 
     .contact-infor
     {
         line-height: 2;
+    }
+
+    .contact-form-btn
+    {
+        font-size: 16px;
     }
 
     #footer .socials-list
@@ -40,7 +47,7 @@
 
     #footer .socials-list a
     {
-        margin: 0 5px;
+        margin: 0 2px;
     }
 
     #footer .copyright a
